@@ -38,13 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'vehiculo.apps.VehiculoConfig',  # registrando la aplicacion
-    # 'bootstrap5',  # bootstrap 5
-    # 'crispy_forms',  # crispy forms para renderizar formularios de una mejor manera
-    # 'crispy_bootstrap5',
+    'django_bootstrap5',    # bootstrap 5
+    'bootstrap5',
+    'crispy_forms',         # crispy forms para renderizar formularios de una mejor manera
+    'crispy_bootstrap5',    # crispy forms para renderizar formularios de una mejor manera
 ]
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
-CRISPY_TEMPLATE_PACK = 'bootstrap5'
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"    # crispy forms para renderizar formularios de una mejor manera
+CRISPY_TEMPLATE_PACK = 'bootstrap5'             # crispy forms para renderizar formularios de una mejor manera
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
